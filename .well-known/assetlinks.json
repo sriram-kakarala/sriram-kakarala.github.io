@@ -6,4 +6,20 @@
     "sha256_cert_fingerprints":
     ["82:F0:0A:EE:31:D1:B5:4D:1E:4E:38:49:3B:EE:A6:C1:44:BF:F2:83:1A:BA:89:1D:83:6C:9E:CA:47:88:C6:68"]
   }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://sriram-kakarala.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.pmtech.enrollmentkickstarter",
+    "sha256_cert_fingerprints":
+    ["82:F0:0A:EE:31:D1:B5:4D:1E:4E:38:49:3B:EE:A6:C1:44:BF:F2:83:1A:BA:89:1D:83:6C:9E:CA:47:88:C6:68"]
+  }
 }]
